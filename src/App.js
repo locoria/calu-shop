@@ -1,8 +1,7 @@
 
 import './App.css';
-import Navbar from 'react-bootstrap/Navbar';
+import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CartWidget from './components/CartWidget';
 import React from 'react';
 
 
@@ -11,7 +10,7 @@ const App = () => {
     
   <>
   <Navbar/>
-  <CartWidget/>
+  
   
   </>
    );
