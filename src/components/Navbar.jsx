@@ -1,7 +1,7 @@
-import './App.css';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 
 
 const Navbar = () => {
@@ -16,11 +16,12 @@ const Navbar = () => {
         <Nav.Link href="#productos">Productos</Nav.Link>
         <Nav.Link href="#New In">New In </Nav.Link>
       </Nav>
-      <div>
+       </Container>
+       </Navbar>
+    <div>
       <CartWidget />
        </div>
-    </Container>
-  </Navbar>
+  
   </div>
 
 
